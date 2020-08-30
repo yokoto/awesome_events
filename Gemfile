@@ -56,6 +56,7 @@ gem 'rails-i18n', '~> 6.0.0'
 # Use Active Storage variant
 gem 'image_processing', '~> 1.2'
 gem 'active_storage_validations', '~> 0.8.8'
+gem 'kaminari', '~> 1.2.0'
 
 group :development, :test do
   gem 'factory_bot_rails'
