@@ -57,7 +57,7 @@ gem 'rails-i18n', '~> 6.0.0'
 gem 'image_processing', '~> 1.2'
 gem 'active_storage_validations', '~> 0.8.8'
 gem 'kaminari', '~> 1.2.0'
-gem 'searchkick', '~> 4.3.0'
+gem 'searchkick', '~> 4.4.1'
 
 group :development, :test do
   gem 'factory_bot_rails'
