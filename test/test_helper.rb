@@ -1,4 +1,8 @@
 ENV['RAILS_ENV'] ||= 'test'
+# NOTE: SimpleCovの設定は他のコードをrequireする前に書く
+require 'simplecov'
+SimpleCov.start 'rails'
+
 require_relative '../config/environment'
 require_relative 'sign_in_helper'
 require 'rails/test_help'
@@ -6,7 +10,7 @@ require 'minitest/mock'
 
 class ActiveSupport::TestCase
   # Run tests in parallel with specified workers
-  parallelize(workers: :number_of_processors)
+  # parallelize(workers: :number_of_processors)
 
   # NOTE: comment out to use factory_bot
   # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.

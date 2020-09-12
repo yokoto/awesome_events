@@ -63,6 +63,7 @@ gem 'image_processing', '~> 1.2'
 gem 'active_storage_validations', '~> 0.9.0'
 gem 'kaminari', '~> 1.2.0'
 gem 'searchkick', '~> 4.4.1'
+gem 'simplecov', require: false, group: :test
 
 group :development, :test do
   gem 'factory_bot_rails'
